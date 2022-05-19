@@ -1,0 +1,30 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+    "version": "2.0",
+    "bundles": {
+        "slider-model-2-web-part": {
+            "components": [{
+                "entrypoint": "./lib/webparts/sliderModel2/SliderModel2WebPart.js",
+                "manifest": "./src/webparts/sliderModel2/SliderModel2WebPart.manifest.json"
+            }]
+        }
+    },
+    "externals": {
+        "SliderScript": {
+            "path": "../src/webparts/sliderModel2/slider.js",
+            "globalName": "SliderScript"
+        },
+        "Jquery": {
+            "path": "../node_modules/jquery/dist/jquery.min.js",
+            "globalName": "Jquery"
+        },
+        "TwinMaxJs": {
+            "path": "../node_modules/gsap/src/minified/TweenMax.min.js",
+            "globalName": "TwinMaxJs"
+        }
+
+    },
+    "localizedResources": {
+        "SliderModel2WebPartStrings": "lib/webparts/sliderModel2/loc/{locale}.js"
+    }
+}

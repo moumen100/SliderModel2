@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.10.0",
+    "libraryName": "slider-model-2",
+    "libraryId": "adccab79-0c4c-4e0d-b275-194ecac16082",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
